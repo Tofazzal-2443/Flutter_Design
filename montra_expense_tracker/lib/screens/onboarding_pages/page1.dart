@@ -19,7 +19,7 @@ class Page1 extends StatelessWidget {
             ),
             const Text(
               "Gain total control of your money",
-              style: h1Style,
+              style: style32,
               textAlign: TextAlign.center,
             ),
             const SizedBox(
@@ -27,7 +27,7 @@ class Page1 extends StatelessWidget {
             ),
             const Text(
               "Become your own money manager and make every cent count",
-              style: h3Style,
+              style: style16,
               textAlign: TextAlign.center,
             ),
           ],

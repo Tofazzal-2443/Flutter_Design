@@ -20,7 +20,7 @@ class Page3 extends StatelessWidget {
             ),
             const Text(
               "Planning ahead",
-              style: h1Style,
+              style: style32,
               textAlign: TextAlign.center,
             ),
             const SizedBox(
@@ -29,7 +29,7 @@ class Page3 extends StatelessWidget {
             ),
             const Text(
               "Setup your budget for each category so you in control",
-              style: h3Style,
+              style: style16,
               textAlign: TextAlign.center,
             ),
           ],

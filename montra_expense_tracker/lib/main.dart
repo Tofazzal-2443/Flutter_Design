@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:montra_expense_tracker/screens/onboarding_pages/on_board_home.dart';
+import 'package:montra_expense_tracker/screens/sign_up_screen/sign_up.dart';
 
 
 late Size mq;
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: OnboardHome(),
+      home: SignUp(),
       //initialRoute: LaunchScreen.routeName,
       //routes: {
       //  LaunchScreen.routeName: (_) => const LaunchScreen(),

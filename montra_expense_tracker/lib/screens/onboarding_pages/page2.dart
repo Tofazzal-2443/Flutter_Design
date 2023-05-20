@@ -20,7 +20,7 @@ class Page2 extends StatelessWidget {
             ),
             const Text(
               "Know where your money goes",
-              style: h1Style,
+              style: style32,
               textAlign: TextAlign.center,
             ),
             const SizedBox(
@@ -28,7 +28,7 @@ class Page2 extends StatelessWidget {
             ),
             const Text(
               "Track your transaction easily, with categories and financial report",
-              style: h3Style,
+              style: style16,
               textAlign: TextAlign.center,
             ),
           ],
