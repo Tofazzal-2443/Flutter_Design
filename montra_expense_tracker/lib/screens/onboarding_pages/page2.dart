@@ -10,23 +10,23 @@ class Page2 extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: Padding(
-        padding: EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image.asset("assets/images/on_boarding_images/on2.png"),
-            SizedBox(
+            const SizedBox(
               height: 41,
             ),
-            Text(
+            const Text(
               "Know where your money goes",
               style: h1Style,
               textAlign: TextAlign.center,
             ),
-            SizedBox(
+            const SizedBox(
               height: 17,
             ),
-            Text(
+            const Text(
               "Track your transaction easily, with categories and financial report",
               style: h3Style,
               textAlign: TextAlign.center,

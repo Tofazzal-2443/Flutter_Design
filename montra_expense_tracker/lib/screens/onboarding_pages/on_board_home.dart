@@ -24,32 +24,32 @@ class OnboardHome extends StatelessWidget {
               height: 530,
               child: PageView(
                 controller: _controller,
-                children: [
+                children: const [
                   Page1(),
                   Page2(),
                   Page3(),
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 31,
             ),
             SmoothPageIndicator(
               controller: _controller,
               count: 3,
-              effect: SwapEffect(
+              effect: const SwapEffect(
                 dotColor: buttonClr2,
                 activeDotColor: buttonClr1,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 33,
             ),
             CustomButton(
               buttonText: "Sign Up",
               onTap: () {},
             ),
-            SizedBox(
+            const SizedBox(
               height: 16,
             ),
             CustomButton(

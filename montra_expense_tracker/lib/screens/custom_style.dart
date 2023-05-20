@@ -22,7 +22,7 @@ const buttonTextS1 = TextStyle(
 const buttonTextS2 = TextStyle(
   fontSize: 18,
   fontWeight: FontWeight.w600,
-  color: Color(0xffF7F3DFF),
+  color: Color(0xff7F3DFF),
 );
 
 
