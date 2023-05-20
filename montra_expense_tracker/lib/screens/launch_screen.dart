@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:montra_expense_tracker/screens/custom_style.dart';
 
+import '../main.dart';
+
 class LaunchScreen extends StatelessWidget {
   const LaunchScreen({Key? key}) : super(key: key);
 
@@ -8,6 +10,7 @@ class LaunchScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    mq = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: backgroundClr,
       body: Stack(
