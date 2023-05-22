@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:montra_expense_tracker/screens/forgot_password%20_page/forgot_password.dart';
+import 'package:montra_expense_tracker/screens/home_pages/home_page.dart';
 import 'package:montra_expense_tracker/screens/onboarding_pages/on_board_home.dart';
 import 'package:montra_expense_tracker/screens/sign_in_page.dart';
 import 'package:montra_expense_tracker/screens/sign_up_screen/sign_up.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: SignInPage(),
+      home: ForgotPassword(),
       //initialRoute: LaunchScreen.routeName,
       //routes: {
       //  LaunchScreen.routeName: (_) => const LaunchScreen(),
