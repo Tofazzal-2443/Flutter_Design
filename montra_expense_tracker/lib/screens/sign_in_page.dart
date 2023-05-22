@@ -15,7 +15,7 @@ class SignInPage extends StatelessWidget {
       backgroundColor: backgroundWClr,
       appBar: AppBar(
         title: const Text(
-          "Sign Up",
+          "Sign In",
           style: style18,
         ),
         centerTitle: true,
