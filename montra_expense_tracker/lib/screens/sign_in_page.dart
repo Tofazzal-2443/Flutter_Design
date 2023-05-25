@@ -16,7 +16,7 @@ class SignInPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           "Sign In",
-          style: style18,
+          style: title3,
         ),
         centerTitle: true,
         backgroundColor: Colors.transparent,
@@ -35,7 +35,11 @@ class SignInPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Email',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
               ),
             ),
             const SizedBox(
@@ -49,7 +53,11 @@ class SignInPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Password',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
                 suffixIcon: const Icon(Icons.visibility),
               ),
             ),
@@ -76,7 +84,11 @@ class SignInPage extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: "Don’t have an account yet?",
-                    style: style16,
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: light20,
+                      fontWeight: FontWeight.w500,
+                    ),
                   ),
                   TextSpan(
                     text: "Sign Up",

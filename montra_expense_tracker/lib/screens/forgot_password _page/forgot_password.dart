@@ -15,7 +15,7 @@ class ForgotPassword extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           "Forgot Password",
-          style: style18,
+          style: title3,
         ),
         centerTitle: true,
         backgroundColor: Colors.transparent,
@@ -45,7 +45,11 @@ class ForgotPassword extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Email',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
               ),
             ),
             const SizedBox(

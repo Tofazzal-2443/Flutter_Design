@@ -22,7 +22,7 @@ class _SignUpState extends State<SignUp> {
       appBar: AppBar(
         title: const Text(
           "Sign Up",
-          style: style18,
+          style: title3,
         ),
         centerTitle: true,
         backgroundColor: Colors.transparent,
@@ -41,7 +41,11 @@ class _SignUpState extends State<SignUp> {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Name',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
               ),
             ),
             const SizedBox(
@@ -55,7 +59,11 @@ class _SignUpState extends State<SignUp> {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Email',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
               ),
             ),
             const SizedBox(
@@ -69,7 +77,11 @@ class _SignUpState extends State<SignUp> {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 labelText: 'Password',
-                labelStyle: style16,
+                labelStyle: myStyle(
+                  16,
+                  light20,
+                  FontWeight.w400,
+                ),
                 suffixIcon: const Icon(Icons.visibility),
               ),
             ),
@@ -94,7 +106,7 @@ class _SignUpState extends State<SignUp> {
                         style: TextStyle(
                           fontSize: 14,
                           color: Colors.black,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                       TextSpan(
@@ -150,18 +162,23 @@ class _SignUpState extends State<SignUp> {
               height: 17,
             ),
             RichText(
-                text: const TextSpan(children: [
-              TextSpan(
-                text: "Already have an account? ",
-                style: style16,
-              ),
-              TextSpan(
-                  text: "Login",
-                  style: TextStyle(
+              text: const TextSpan(
+                children: [
+                  TextSpan(
+                    text: "Already have an account? ",
+                    style: regular1,
+                  ),
+                  TextSpan(
+                    text: "Login",
+                    style: TextStyle(
                       fontSize: 16,
-                      color: backgroundClr,
-                      fontWeight: FontWeight.w500)),
-            ]))
+                      color: violet100,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

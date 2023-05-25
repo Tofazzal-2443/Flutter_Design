@@ -9,7 +9,7 @@ class SignUpVerification extends StatelessWidget {
     return Scaffold(
       backgroundColor: backgroundWClr,
       appBar: AppBar(
-        title: Text("Verification", style: style18,),
+        title: const Text("Verification", style: title3,),
         backgroundColor: Colors.transparent,
         centerTitle: true,
         elevation: 0,
