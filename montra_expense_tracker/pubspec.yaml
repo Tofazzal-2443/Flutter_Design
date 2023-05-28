@@ -66,6 +66,7 @@ flutter:
     - assets/images/
     - assets/images/on_boarding_images/
     - assets/icons/Glyph/Finance/
+    - assets/icons/Flat/Finance/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
